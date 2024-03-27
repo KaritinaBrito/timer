@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #496989;
+  background: linear-gradient(270deg, #9AD0C2 5%, #496989 100% );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "lato";
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
